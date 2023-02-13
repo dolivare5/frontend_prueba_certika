@@ -1,0 +1,311 @@
+
+* {
+    font-family: 'Inconsolata', monospace;
+}
+body {
+    background: rgb(16,69,29);
+    background: 
+    linear-gradient(90deg,
+     rgba(16,69,29,1) 10%, 
+    rgba(26,116,49,1) 64%,
+     rgba(32,139,58,1) 91%);
+}
+.name-bank {
+    letter-spacing: 0.3625rem ;
+    
+}
+.contenedor-de-vuelta-a-inicio {
+    background-color: transparent;
+    height: 70px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 10px;
+    padding-left: 50px;
+    
+}
+
+.container-total-singup {
+    margin-top: 100px;
+}
+
+
+.contenedor-de-vuelta-a-inicio img {
+    width: 60px;
+}
+/* Diseño del lado izquierdo del inicio de sesion, informacion.*/
+.lado-izquierdo {
+
+width: 45%;
+margin-right: 20px;
+height: 90vh;
+align-items: center;
+text-align: inherit;
+padding: 30px 60px;
+}
+.lado-izquierdo h1 {
+    color: #FFFFFF;
+}
+.lado-izquierdo h4 {
+    color: #FFFFFF;
+}
+.solanaLogo {
+    width: 100px;
+}
+
+/* Diseño del lado derecho de inicio de sesion o formulacio*/
+
+
+.fila-principal {
+    justify-content: center;
+}
+
+.lado-formulario {
+    
+    height: 115vh;
+    padding: 10px;
+    align-items: center;
+    text-align: left;
+    
+}
+
+.formulario-login {
+    padding: 20px 50px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    height: fit-content;
+    width: 100%;
+    transition: all 0.5s;
+    box-shadow:  7px 15px 25px rgba(12, 121, 17, 0.685);
+}
+.head-form h3 {
+    font-size: 35px;
+    color: #10451D;
+}
+
+.head-form h5 {
+    
+    color: #10451D;
+}
+.formulario-login h3 {
+    
+    color: #10451D;
+
+
+}
+.formulario-login small {
+    color: #208B3A;
+    
+    
+}
+
+.linkRegister {
+    text-decoration: none;
+    color: #1d7733;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.linkRegister:hover {
+    padding-bottom: 3px;
+    border-bottom: 2px solid #1d7733;
+    text-decoration: none;
+    color: #1d7733;
+}
+
+
+
+.correo-form {
+    margin-top: 25px;
+
+}
+.correo-form input {
+    width: 100%;
+    outline: none;
+    border: 1px solid #1d7733;
+    border-radius: 5px;
+    color: #10451D;
+    height: 45px;
+    transition: all 0.5s;
+}
+.correo-form p {
+    color: #155D27;
+}
+.correo-form input::placeholder {
+    color: #10451D;
+}
+.correo-form input:focus {
+    box-shadow: 0px 2px 7px rgba(12, 121, 17, 0.685);
+    height: 47px;
+}
+
+
+
+
+.contrasena-form {
+   margin-top: 20px;
+
+}
+
+.contrasena-form input {
+    width: 100%;
+    outline: none;
+    border: 1px solid #1d7733;
+    border-radius: 5px;
+    color: #10451D;
+    height: 45px;
+    transition: all 0.5s;
+}
+.contrasena-form p {
+    color: #155D27;
+}
+.contrasena-form input::placeholder {
+    color: #10451D;
+}
+.contrasena-form input:focus {
+    box-shadow: 0px 2px 7px rgba(12, 121, 17, 0.685);
+    height: 47px;
+}
+
+.boton-login{
+    text-align: center;
+    margin-top: 25px;
+}
+.boton-login input {
+    width: 80%;
+}
+
+/* .btn-register {
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    background: #006494;
+    color: #fff;
+    padding: 8px 20px;
+    transition: all 0.6s;
+    margin-right: 5px ;
+}
+
+.btn-register:hover {
+   color: #fff;
+   background: #0380ba;
+
+} */
+
+/* Css para las validaciones */
+
+.lado-formulario-error{
+    height: 1000px;
+    padding: 50px;
+    align-items: center;
+    text-align: left;
+    
+}
+
+.lado-formulario-mensaje{
+    height: 860px;
+    padding: 50px;
+    align-items: center;
+    text-align: left;
+    
+}
+
+.form_parrafo{
+    display: block;
+    cursor: pointer;
+}
+
+.form_grupo-input{
+    position: relative;;
+}
+
+.form_input{
+    transition: .3s ease all;
+}
+
+.form_input-error{
+    font-size: 16px;
+    margin-bottom: 0px;
+    display: none;
+}
+
+.form_input-error-activo{
+    display: block;
+}
+
+.form_validacion-estado{
+    position: absolute;
+    right: 5px;
+    bottom: 6px;
+    z-index: 100;
+    font-size: 20px;
+    opacity: 0;
+}
+
+.form_mensaje{
+    background:#F66868;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 30px 20px 20px 20px;
+    display: none;
+}
+
+.form_mensaje-activar{
+    display: block;
+}
+
+.form_mensaje-exito{
+    background: #64c27b;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 20px 20px 20px;
+    display: none;
+}
+
+.form_mensaje-exito-activar{
+    display: block;
+}
+
+.form_grupo-correcto .form_validacion-estado{
+    color: #1ed12d;
+    opacity: 1;    
+}
+
+.form_grupo-incorrecto .form_validacion-estado{
+    color: #bb2929;
+    opacity: 1;    
+}
+
+.form_grupo-correcto .form_input{
+    border: 3px solid #1ed12d;
+}
+
+.form_grupo-incorrecto .form_input{
+    border: 3px solid #bb2929;
+}
+.btn-account {
+    text-decoration: none;
+    border: 2px solid #10451D;
+    border-radius: 50px;
+    background: none;
+    color: #000;
+    padding: 8px 20px;
+    transition: all 0.6s;
+    margin-right: 5px ;
+    
+}
+.btn-account:hover {
+    text-decoration: none;
+    background: #10451D;
+    border: 2px solid #238d3d;
+    color: #fff;
+    
+}
+
+/* Media query*/
+
+@media (max-width: 992px) {
+    .lado-izquierdo {
+        display: none;
+    }
+    
+}

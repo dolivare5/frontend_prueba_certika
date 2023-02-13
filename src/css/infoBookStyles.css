@@ -1,0 +1,29 @@
+
+
+.h3-lemaprincipal {
+    font-size: 2.7rem;
+
+}
+
+.head-principal {
+    padding-top: 7rem;
+    
+}
+
+.parrafo-principal-p {
+    font-size: 1.0rem;
+}
+
+.container-image-book {
+    height: 330px;
+    width: 250px;
+}
+
+.image-book {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+}
+
+

@@ -1,0 +1,49 @@
+.foto-perfil-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #208B3A;
+}
+
+.foto-perfil-user {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.button-prestamos-link {
+    background: rgb(16,69,29);
+    background: 
+    linear-gradient(90deg,
+     rgba(16,69,29,1) 10%,
+      rgba(26,116,49,1) 64%,
+       rgba(32,139,58,1) 91%);
+    border: none;
+}
+.button-prestamos-link:hover {
+    background-color: rgb(21, 92, 39) ;
+    border: none;
+    
+}
+
+
+.button-invent-link {
+    background: rgb(16,69,29);
+background: radial-gradient(circle, rgba(16,69,29,1) 10%, rgba(26,116,49,1) 40%, rgba(32,139,58,1) 91%);
+    border: none;
+    color: #fff;
+}
+.button-invent-link:hover {
+    background: rgb(22, 92, 39);
+background: radial-gradient(circle, rgba(16,69,29,1) 10%, rgba(26,116,49,1) 40%, rgba(32,139,58,1) 91%);
+    border: none;
+    color: #fff;
+}
+
+.button-user-link {
+    background: rgb(16,69,29);
+background: linear-gradient(270deg, rgba(16,69,29,1) 10%, rgba(26,116,49,1) 64%, rgba(32,139,58,1) 91%);
+    border: none;
+
+}
